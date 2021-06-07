@@ -1,0 +1,47 @@
+[debug] [2021-06-07T08:54:13.058Z] ----------------------------------------------------------------------
+[debug] [2021-06-07T08:54:13.061Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\arpan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-06-07T08:54:13.062Z] CLI Version:   9.11.0
+[debug] [2021-06-07T08:54:13.062Z] Platform:      win32
+[debug] [2021-06-07T08:54:13.062Z] Node Version:  v14.15.1
+[debug] [2021-06-07T08:54:13.064Z] Time:          Mon Jun 07 2021 14:24:13 GMT+0530 (India Standard Time)
+[debug] [2021-06-07T08:54:13.064Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-07T08:54:13.078Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-07T08:54:13.078Z] > authorizing via signed-in user (adarshsinghrathore3@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\arpan\Downloads\Front End Basic\movies
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using instagram-clone-327f0. 
+[debug] [2021-06-07T08:54:20.152Z] > refreshing access token with scopes: []
+[debug] [2021-06-07T08:54:20.153Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-07T08:54:20.517Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 07 Jun 2021 08:54:19 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-07T08:54:21.061Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/instagram-clone-327f0 [none]
+[debug] [2021-06-07T08:54:21.582Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/instagram-clone-327f0 200
+[debug] [2021-06-07T08:54:21.583Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/instagram-clone-327f0 {"projectId":"instagram-clone-327f0","projectNumber":"908205776256","displayName":"instagram clone","name":"projects/instagram-clone-327f0","resources":{"hostingSite":"instagram-clone-327f0","storageBucket":"instagram-clone-327f0.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
