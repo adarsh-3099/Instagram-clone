@@ -1,21 +1,25 @@
-.post{
-    background-color: darkgray;
-    width: 500px;
-    border: 2 px solid lightgray;
-    box-shadow: darkgray;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+.post {
+  width: 200px;
+  height: 60px;
+  margin: 2em auto;
+  display: block;
+  background-color: tomato;
+  color: white;
+  box-shadow: none;
+  border: 2px solid lighten(tomato, 15%);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
 
-.post__image{
-    width: 100%;
-    object-fit: contain;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+  width: 500px;
+  border: 2 px solid lightgray;
+  box-shadow: darkgray;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .post__avatar{
     margin-right: 10px;
 }
